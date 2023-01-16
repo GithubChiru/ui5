@@ -1,0 +1,56 @@
+<mvc:View
+    controllerName="Hotel.hotelassignment.controller.View2"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+		<App id="app">
+			<pages>
+				<Page id="page" title="View2">
+					<headerContent>
+		                <Button icon="sap-icon://arrow-left" press="onBack"></Button>
+		                </headerContent>
+
+					<content>
+					 <Text text="WELCOME TO VIEW2"></Text>
+					 <Table items="{model2>/selectedItem}" mode="MultiSelect" selectionChange="onRowSelect" id="tabId">
+
+							   <columns>
+							       <Column >
+
+								   <Label text="Items"></Label>
+							
+							       </Column>
+								    <Column >
+
+								   <Label text="Price"></Label>
+							
+							       </Column>						
+							   </columns>
+
+
+							   <items>
+							       
+								   <ColumnListItem >
+								          <cells>
+										       <Input value="{model2>item}" ></Input>
+											    <Input  value="{model2>price}"></Input>
+												<Text text="{color}"></Text>
+										  
+										  
+										  </cells>
+								   
+								   
+								   </ColumnListItem>
+								   
+							   
+							   </items>
+														
+							</Table>
+
+							 <Button text="Bill" type="Accept" press="onBill" ></Button>
+					</content>
+				</Page>
+			</pages>
+		</App>
+</mvc:View>

@@ -1,0 +1,54 @@
+<mvc:View
+    controllerName="Hotel.hotelassignment.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+<App id="">
+			<pages>
+				<Page id="page" title="Hotel-Assignment">
+                  		<headerContent>
+		                <Button icon="sap-icon://arrow-right" press="onNext"></Button>
+		                </headerContent>
+
+				<subHeader>
+				  <Toolbar >
+				    <SearchField search="onSearch" liveChange="onSearch"></SearchField>
+				  </Toolbar>
+				</subHeader>
+
+					<content>
+					
+                   <!-- <SplitApp >
+				   <masterPages > -->
+				   
+				   <List id="idFroustList" items="{/hotels}" mode="SingleSelectMaster" selectionChange=" onSelectItems">
+					<items>
+					
+					<ObjectListItem title="{name}" icon="{image}">
+					
+					
+					</ObjectListItem>
+					
+					</items>
+
+					</List>
+				   <!-- </masterPages>
+
+				   <detailPages> -->
+					<!-- <mvc:XMLView viewName="Hotel.hotelassignment.view.View2"></mvc:XMLView> -->
+				   <!-- </detailPages>
+				   </SplitApp>
+				    -->
+					
+					</content>
+
+					<footer>
+					   <Toolbar >
+					       <ToolbarSpacer />
+					   </Toolbar>
+					</footer>
+				</Page>
+			</pages>
+		</App>
+</mvc:View>

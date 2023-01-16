@@ -1,0 +1,44 @@
+<core:FragmentDefinition  xmlns:core="sap.ui.core" xmlns="sap.m">
+ 
+<Dialog >
+ 
+  <List id="" items="{model3>/tableItem}" mode="SingleSelectMaster" selectionChange=" onSelectItems">
+                    <items>
+                    
+                    <ObjectListItem title="{model3>item}" icon="{model3>image}" intro="Electronicdevices" number="{model3>price}" numberUnit="INR" >
+                    
+                    <attributes>
+                    
+                    <ObjectAttribute text=" The realme C20 is a mobile phone that will keep you entertained and productive at the same time. Its 16.5 cm (6.5) Large HD+ Display ensures that you get an expansive view of movies, games, and even work-related docs for a more immersive experience." title="Description"  ></ObjectAttribute>
+                    <ObjectAttribute text="" title="Specifications"></ObjectAttribute>
+ 
+                    <ObjectAttribute text="8MP AI Rear Camera (f/2.0 Aperture, 4P Lens, 1/4 Inch Sensor Size, 1.12μm Pixel Size, AF), CMOS Sensor, Supports 20 Continuous Shooting, Photograph Functions: Night Mode," title="Primary Camera"></ObjectAttribute>
+ 
+                    <ObjectAttribute text="5MP Front Camera (f/2.2 Aperture, 3P Lens, 1/5 Inch Sensor Size, 1.12μm Pixel Size, FF), Photography Functions: Portrait Mode, Timelapse, Panoramic View, Beauty Mode, HDR," title="Secondary Camera"></ObjectAttribute>
+ 
+                    <ObjectAttribute text="32 GB" title="Internal Storage"></ObjectAttribute>
+ 
+                    <ObjectAttribute text="2 GB" title="RAM"></ObjectAttribute>
+ 
+                    <ObjectAttribute text="256 GB" title="Expandable Storage"></ObjectAttribute>
+ 
+                    <ObjectAttribute text="5000 mAh" title="Battery Capacity"></ObjectAttribute>
+ 
+                    <ObjectAttribute text="16.51 cm (6.5 inch)" title="Display Size"></ObjectAttribute>
+ 
+                    <ObjectAttribute text="Head: 0.982W/kg, Body: 0.497W/kg" title="SAR Value"></ObjectAttribute>
+ 
+                    <ObjectAttribute text="Cool Blue" title="Color"></ObjectAttribute>
+                    </attributes>
+                    </ObjectListItem>
+                    
+                    </items>
+ 
+                    </List>
+
+
+
+<!--  
+<Button text="close" press="onClose"></Button> -->
+</Dialog> 
+</core:FragmentDefinition>

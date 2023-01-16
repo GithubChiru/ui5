@@ -1,0 +1,106 @@
+{
+  "_version": "1.32.0",
+  "sap.app": {
+    "id": "Hotel.hotelassignment",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "1.0.0"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "ach": "ach"
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "sap-icon://task",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+
+  "sap.ui5": {
+    "flexEnabled": false,
+    "rootView": {
+      "viewName": "Hotel.hotelassignment.view.App",
+      "type": "XML",
+      "async": true,
+      "id": "app"
+    },
+    "dependencies": {
+			"minUI5Version": "1.94.0",
+      "libs": {
+        "sap.ui.core": {},
+        "sap.m": {},
+        "sap.ui.layout": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "Hotel.hotelassignment.i18n.i18n"
+        }
+      },
+      "":{
+        "type": "sap.ui.model.json.JSONModel",
+        "uri":"model/hotels.json"
+
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "viewType": "XML",
+        "async": true,
+        "viewPath": "Hotel.hotelassignment.view",
+        "controlId": "idSplitApp"
+      },
+      "routes": [
+        {
+          "name": "RouteView1",
+          "pattern": "",
+          "target": ["TargetView1","TargetView2"]
+        },
+        {
+          "name": "RouteView2",
+          "pattern": "RouteView2",
+          "target": ["TargetView1","TargetView2"]
+        }
+      ],
+      "targets": {
+        "TargetView1": {
+          "viewLevel": 1,
+          "controlAggregation": "masterPages",
+          "viewName": "View1"
+        },
+        "TargetView2": {
+          "viewLevel": 2,
+          "controlAggregation": "detailPages",
+          "viewName": "View2"
+        }
+      }
+    }
+  }
+}

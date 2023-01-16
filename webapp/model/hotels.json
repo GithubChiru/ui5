@@ -1,0 +1,208 @@
+{
+    "items": [
+
+        {
+            "name": "Taj",
+            "item": "rice",
+
+            "price": "200"
+        },
+        {
+            "name": "Taj",
+            "item": "chicken",
+
+            "price": "100"
+        },
+        {
+            "name": "Taj",
+            "item": "Biryani",
+            "price": "350"
+        },
+        {
+            "name": "Taj",
+            "item": "Pizza",
+            "price": "380"
+        },
+        {
+            "name": "Taj",
+            "item": "noodles",
+            "price": "150"
+        },
+        {
+            "name": "Imperial",
+            "item": "pizza",
+            "price": "300"
+        },
+        {
+            "name": "Imperial",
+            "item": "Biryani",
+            "price": "450"
+        },
+        {
+            "name": "Imperial",
+            "item": "Burger",
+            "price": "180"
+        },
+        {
+            "name": "Imperial",
+            "item": "passata",
+            "price": "310"
+        },
+        {
+            "name": "Imperial",
+            "item": "pizza",
+            "price": "300"
+        },
+        {
+            "name": "Panjabi dhaba",
+            "item": "Biryani",
+            "price": "480"
+        },
+        {
+            "name": "Panjabi dhaba",
+            "item": "Burger",
+            "price": "250"
+        },
+        {
+            "name": "Panjabi dhaba",
+            "item": "passata",
+            "price": "100"
+        },
+        {
+            "name": "Panjabi dhaba",
+            "item": "Burger",
+            "price": "100"
+        },
+        {
+            "name": "Panjabi dhaba",
+            "item": "passata",
+            "price": "190"
+        },
+        {
+            "name": "odia dian",
+            "item": "passata",
+            "price": "120"
+        },
+        {
+            "name": "odia dian",
+            "item": "Burger",
+            "price": "250"
+        },
+        {
+            "name": "odia dian",
+            "item": "rice",
+            "price": "370"
+        },
+        {
+            "name": "odia dian",
+            "item": "Biryani",
+            "price": "500"
+        },
+        {
+            "name": "odia dian",
+            "item": "passata",
+            "price": "290"
+        },
+        {
+            "name": "puchkas",
+            "item": "Biryani",
+            "price": "200"
+        },
+        {
+            "name": "puchkas",
+            "item": "rice",
+            "price": "610"
+        },
+        {
+            "name": "puchkas",
+            "item": "passata",
+            "price": "100"
+        },
+        {
+            "name": "puchkas",
+            "item": "Burger",
+            "price": "200"
+        },
+        {
+            "name": "puchkas",
+            "item": "passata",
+            "price": "100"
+        },
+        {
+            "name": "punjabi nawabi",
+            "item": "rice",
+
+            "price": "200"
+        },
+        {
+            "name": "punjabi nawabi",
+            "item": "chicken",
+
+            "price": "100"
+        },
+        {
+            "name": "punjabi nawabi",
+            "item": "Biryani",
+            "price": "350"
+        },
+        {
+            "name": "punjabi nawabi",
+            "item": "Pizza",
+            "price": "400"
+        },
+        {
+            "name": "punjabi nawabi",
+            "item": "noodles",
+            "price": "100"
+        }
+
+
+
+    ],
+
+    "hotels": [{
+            "image": "https://i0.wp.com/www.dondeir.com/wp-content/uploads/2016/11/restaurantes-sensuales-en-el-df-02.jpg?ssl=1",
+            "name": "Taj",
+            "nature": "Veg"
+
+
+        },
+
+
+
+        {
+            "image": "https://media.istockphoto.com/photos/two-empty-wine-glasses-sitting-in-a-restaurant-on-a-warm-sunny-picture-id1018141890?k=20&m=1018141890&s=612x612&w=0&h=uMDP00MMIhlwQE77EEcoelc2oSKBT_B6avaXqtxgiow=",
+            "name": "Imperial",
+            "nature": "Veg"
+
+
+
+        },
+        {
+            "image": "https://img.freepik.com/free-photo/restaurant-interior_1127-3394.jpg?size=626&ext=jpg",
+            "name": "Panjabi dhaba",
+            "nature": "Veg"
+
+
+        },
+        {
+            "image": "https://media-cdn.tripadvisor.com/media/photo-s/14/91/d0/74/ta-img-20180911-094833.jpg",
+            "name": "odia dian",
+
+            "nature": "Veg"
+        },
+        {
+            "image": "https://images.unsplash.com/photo-1498654896293-37aacf113fd9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHJlc3RhdXJhbnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
+            "name": "puchkas",
+
+            "nature": "Non-Veg"
+        },
+        {
+            "image": "https://media.istockphoto.com/photos/interior-of-cozy-restaurant-loft-style-picture-id843610508?k=20&m=843610508&s=612x612&w=0&h=zDihg07dmPyyYPYtLUK-YGrZ2O-tPIMroNvN4DJfuc8=",
+            "name": "punjabi nawabi",
+
+            "nature": "Non-Veg"
+        }        
+    ]
+
+}

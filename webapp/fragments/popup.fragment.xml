@@ -1,0 +1,49 @@
+<core:FragmentDefinition  xmlns:core="sap.ui.core" xmlns="sap.m">
+ 
+<Dialog >
+ 
+<Table items="{model3>/tableItem}"  selectionChange="onRowSelect" >
+  
+                               <columns>
+                                   <Column >
+ 
+                                   <Label text="Items"></Label>
+                            
+                                   </Column>
+                                    <Column >
+ 
+                                   <Label text="Price"></Label>
+                            
+                                   </Column>
+                                  
+                                   
+                            
+                               </columns>
+ 
+                               <items>
+                                   
+                                   <ColumnListItem >
+                                          <cells>
+                                               
+                                                <Text text="{model3>item}"></Text>
+                                                <Text text="{model3>price}"></Text>
+                                               
+                                                
+                                          
+                                          
+                                          </cells>
+                                        
+                                   
+                                   
+                                   </ColumnListItem>
+                                  
+                               
+                               </items>
+                            
+                            
+                            </Table>
+
+
+ <Button text="Close" press="onClose"></Button>
+</Dialog> 
+</core:FragmentDefinition>
